@@ -6,5 +6,5 @@ x=st.number_input("選んだ数字", -10000, 10000, 0)
 theme1=theme1.sort_values("Random")
 if x!=0:
   x=x % len(theme1)
-  st.baloons()
+  st.balloons()
   st.write(theme1.iloc[x][0])
