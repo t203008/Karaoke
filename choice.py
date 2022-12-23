@@ -12,5 +12,6 @@ if x!=0:
   st.snow()
   st.header(theme1.iloc[x][0])
   
-st.image(image2,caption="待ち合わせ禁止エリア",use_column_width=True)
 st.image(image1,caption="路線図",use_column_width=True)
+st.image(image2,caption="待ち合わせ禁止エリア",use_column_width=True)
+
