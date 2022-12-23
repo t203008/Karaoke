@@ -10,7 +10,7 @@ theme1=theme1.sort_values("Random")
 if x!=0:
   x=x % len(theme1)
   st.snow()
-  st.text(theme1.iloc[x][0])
+  st.header(theme1.iloc[x][0])
   
 st.image(image2,caption="待ち合わせ禁止エリア",use_column_width=True)
 st.image(image1,caption="路線図",use_column_width=True)
