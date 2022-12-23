@@ -4,7 +4,7 @@ from PIL import Image
 st.title("スマホなしで待ち合わせ　お題")
 image1=Image.open("365870_0.jpg")
 image2=Image.open("366082_0.jpg")
-theme1=pd.read_csv("Meet up without Smartphone.csv")
+theme1=pd.read_excel("Meet up without Smartphone.xlsx")
 x=st.number_input("選んだ数字", -10000, 10000, 0)
 theme1=theme1.sort_values("Random")
 if x!=0:
