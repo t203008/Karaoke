@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 st.title("スマホなしで待ち合わせ　お題")
 st.write(365870_0.jpg)
 theme1=pd.read_csv("Meet up without Smartphone.csv")
