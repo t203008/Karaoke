@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-st.header("時間になるまで暫しお待ちください")
-T
+
 st.title("スマホなしで待ち合わせ　お題")
 image1=Image.open("365870_0.jpg")
 image2=Image.open("366082_0.jpg")
